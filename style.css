@@ -1,0 +1,33 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    background-color: red;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    margin: 18px;
+    background-color: aquamarine;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+img {
+    justify-content: center;
+    align-items: center;
+}
