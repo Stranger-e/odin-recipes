@@ -8,6 +8,12 @@ h1 {
     text-align: center;
 }
 
+body {
+    background-image: url(../odin-recipes/recipes/img/cook.jpg);
+    background-color: darkolivegreen;
+    
+}
+
 h3 {
     text-align: center;
     margin: 18px;
@@ -25,9 +31,9 @@ a {
 ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
 }
 
 img {
-    justify-content: center;
-    align-items: center;
+    margin: 12px;
 }

@@ -1,0 +1,28 @@
+h1 {
+    background-color: chocolate;
+    text-align: center;
+    color: black;
+    padding: 18px;
+}
+
+body {
+    background-color: darkolivegreen;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: 1px solid red;
+    background-color: chocolate;
+}
+
+ul li {
+    padding: 0px;
+    margin-left: 100px;
+}
