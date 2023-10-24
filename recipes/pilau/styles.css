@@ -6,7 +6,8 @@ h1 {
 }
 
 body {
-    background-color: darkolivegreen;
+    background-image: url(../../recipes/img/cook.jpg);
+    max-width: 100%;
 }
 
 a {
@@ -25,7 +26,6 @@ button {
 li {
     padding: 0px;
     margin-left: 100px;
-    border: 20px;
 }
 
 h2 {
@@ -41,4 +41,9 @@ h2 {
 
 img {
     margin-left: 500px;
+    display: flex;
+}
+
+p {
+    margin-left: 100px;
 }
