@@ -41,8 +41,12 @@ button {
     border-radius: 100%;
     border: 1px solid red;
     background-color: chocolate;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
+    border-bottom: 4px solid blue;
+}
+
+button:hover {
+    background-color: red;
 }
 
 

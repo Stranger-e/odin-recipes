@@ -1,0 +1,36 @@
+* {
+    text-decoration: dotted;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+body {
+    background-image: url(../img/cook.jpg);
+}
+
+h1,
+h2 {
+    background-color: chocolate;
+    text-align: center;
+}
+
+p,
+li {
+    font-size: large;
+    margin-left: 32px;
+}
+
+.enjoy {
+    text-align: center;
+    font-size: larger;
+}
+
+button {
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: 1px solid red;
+    background-color: chocolate;
+    margin: auto;
+}
