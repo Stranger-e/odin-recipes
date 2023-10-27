@@ -8,6 +8,10 @@ h1 {
 body {
     background-image: url(../../recipes/img/cook.jpg);
     max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
 }
 
 a {
@@ -47,4 +51,15 @@ img {
 
 p {
     margin-left: 100px;
+}
+
+ul,
+ol,
+p,
+img {
+    border: 2px solid black;
+}
+
+div {
+    background: plum;
 }
