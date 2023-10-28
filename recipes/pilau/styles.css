@@ -34,10 +34,12 @@ li {
 }
 
 h2 {
-    background-color: chocolate;
+    background-color: #ED7D31;
     text-align: center;
-    border-radius: 10%;
+    border-radius: 12px;
     justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .enjoy {
     font-size: large;
@@ -45,21 +47,36 @@ h2 {
 }
 
 img {
-    margin-left: 500px;
+    margin-left: auto;
     display: flex;
 }
 
 p {
-    margin-left: 100px;
+    margin-left: 1%;
 }
 
-ul,
-ol,
-p,
-img {
-    border: 2px solid black;
-}
 
 div {
-    background: plum;
+    background: #6C5F5B;
+    height: auto;
+    width: 50%;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.pic {
+    background-image: url(../img/pilau.jpg);
+    height: 300px;
+    width: 400px;
+    margin: auto;
+}
+
+.description {
+    align-self: flex-start;
+    max-width: 70%;
+}
+
+.ingredients {
+    max-width: 68%;
+    align-self: flex-end;
 }
