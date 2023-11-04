@@ -3,15 +3,18 @@ h1 {
     text-align: center;
     color: black;
     padding: 18px;
+    height: 100%;
+    width: 100%;
 }
 
 body {
     background-image: url(../../recipes/img/cook.jpg);
     max-width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
     gap: 5px;
+    flex-wrap: wrap;
+    flex: 1;
 }
 
 a {
@@ -47,8 +50,8 @@ h2 {
 }
 
 img {
-    margin-left: auto;
-    display: flex;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 p {
@@ -59,7 +62,7 @@ p {
 div {
     background: #6C5F5B;
     height: auto;
-    width: 50%;
+    width: 49%;
     border: 3px solid black;
     border-radius: 5px;
 }
@@ -68,15 +71,13 @@ div {
     background-image: url(../img/pilau.jpg);
     height: 300px;
     width: 400px;
-    margin: auto;
 }
 
 .description {
-    align-self: flex-start;
-    max-width: 70%;
+    height: 300px;
+    width: 50%;
 }
 
 .ingredients {
     max-width: 68%;
-    align-self: flex-end;
 }
